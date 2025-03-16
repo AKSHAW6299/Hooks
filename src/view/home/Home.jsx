@@ -33,7 +33,7 @@ const HomePage = () => {
                 <section id="cards" className="mb-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {/* useState Card */}
-                        <Link to="/useState">
+                        <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                                 <h2 className="text-xl font-semibold mb-3">useState, useEffect</h2>
                                 <p className="text-gray-700">
@@ -48,7 +48,7 @@ const HomePage = () => {
                         </Link>
 
                         {/* createContext Card */}
-                        <Link to="/createContext">
+                        <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                                 <h2 className="text-xl font-semibold mb-3">createContext, useContext</h2>
                                 <p className="text-gray-700">
@@ -63,7 +63,7 @@ const HomePage = () => {
                         </Link>
 
                         {/* useReducer Card */}
-                        <Link to="/useReducer">
+                        <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                                 <h2 className="text-xl font-semibold mb-3">useReducer</h2>
                                 <p className="text-gray-700">
@@ -101,7 +101,7 @@ const HomePage = () => {
                 <section id="cards" className="mb-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {/* useRef Card */}
-                        <Link to="/useRef">
+                        <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                                 <h2 className="text-xl font-semibold mb-3">useRef</h2>
                                 <p className="text-gray-700">
@@ -116,7 +116,7 @@ const HomePage = () => {
                         </Link>
 
                         {/* useMemo Card */}
-                        <Link to="/useMemo">
+                        <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                                 <h2 className="text-xl font-semibold mb-3">useMemo</h2>
                                 <p className="text-gray-700">
@@ -131,7 +131,7 @@ const HomePage = () => {
                         </Link>
 
                         {/* useCallback Card */}
-                        <Link to="/useCallback">
+                        <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                                 <h2 className="text-xl font-semibold mb-3">useCallback</h2>
                                 <p className="text-gray-700">
