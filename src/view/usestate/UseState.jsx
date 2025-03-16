@@ -13,7 +13,7 @@ function UseState() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-white flex flex-col">
       {/* Header */}
       <header className="bg-gradient-to-br from-blue-100 to-indigo-100 shadow-md p-4 sticky top-0 z-50">
         <nav className="container mx-auto flex justify-between items-center">
@@ -27,23 +27,23 @@ function UseState() {
       {/* Main content */}
       <main className="container mx-auto px-4 py-8 flex-1">
         {/* UseState explanation section */}
-        <section className="mb-10">
-          <h1 className="text-2xl font-semibold text-gray-800 mb-4">
-            useState Hook :
+        <section className="mb-6">
+          <h1 className="text-xl font-semibold text-gray-800 mb-2">
+            useState Hook:
           </h1>
-          <p className="text-lg text-gray-700 mb-4">
-            The <code className="font-mono bg-gray-200 p-1 rounded">useState</code> hook lets you add state to functional components effortlessly. It returns a pair: the current state and a function to update it.
+          <p className="text-base text-gray-700 mb-2">
+            The <code className="font-mono bg-gray-100 p-1 rounded">useState</code> hook lets you add state to functional components. It returns a pair: the current state and a function to update it.
           </p>
-          <div className="bg-gray-900 text-green-400 p-4 rounded shadow overflow-auto">
-            <code className="block">
+          <div className="bg-gray-100 text-green-500 p-2 rounded">
+            <code className="block text-sm">
               const [count, setCount] = useState(0);
             </code>
           </div>
-          <p className="mt-4 text-gray-700">
-            Here, <span className="font-medium">count</span> is initialized to <span className="font-medium">0</span>, and <span className="font-medium">setCount</span> lets you change its value.
-            It's a smart, simple way to manage local component state without using classes.
+          <p className="mt-2 text-gray-700">
+            Here, <span className="font-semibold">count</span> is initialized to <span className="font-semibold">0</span> and <span className="font-semibold">setCount</span> lets you update its value.
           </p>
         </section>
+
 
         {/* Counter Project Section */}
         <section className="bg-white shadow-lg rounded-lg p-8">
