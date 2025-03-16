@@ -33,10 +33,10 @@ const HomePage = () => {
                 <section id="cards" className="mb-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {/* useState Card */}
-                        <Link to="/">
+                        <Link to="/usestate">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                                 <h2 className="text-xl font-semibold mb-3">useState, useEffect: <span className='text-green-600'>AxiosInstanceCRUD</span></h2>
-                                <p className="text-gray-700">useState : AxiosInstanceCRUD</p>
+                                <p className="text-gray-700">useState : AxiosInstanceCRUD, <span className='font-bold'>Current project</span></p>
                                 <p className="text-gray-700">useEffect : AxiosInstanceCRUD</p>
                                 <div className="mt-6">
                                     <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded">
@@ -47,7 +47,7 @@ const HomePage = () => {
                         </Link>
 
                         {/* createContext Card */}
-                        <Link to="/">
+                        <a href="https://github.com/AKSHAW6299/ContextApiOne" target='_blank'>
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                                 <h2 className="text-xl font-semibold mb-3">createContext, useContext: <span className='text-gray-500'>ContextApiOne </span></h2>
                                 <p className="text-gray-700">createContext : ContextApiOne</p>
@@ -58,10 +58,10 @@ const HomePage = () => {
                                     </button>
                                 </div>
                             </div>
-                        </Link>
+                        </a>
 
                         {/* useReducer Card */}
-                        <Link to="/">
+                        <Link to="/usereducer">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                                 <h2 className="text-xl font-semibold mb-3">useReducer: <span className='text-yellow-600'>Hooks</span></h2>
                                 <p className="text-gray-700">useReducer : <span className='font-bold'>Current project</span></p>
