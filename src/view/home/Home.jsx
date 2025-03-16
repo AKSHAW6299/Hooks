@@ -35,12 +35,11 @@ const HomePage = () => {
                         {/* useState Card */}
                         <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">useState, useEffect</h2>
-                                <p className="text-gray-700">
-                                    Easily add state to your functional components. useState returns a stateful value along with a function to update it.
-                                </p>
+                                <h2 className="text-xl font-semibold mb-3">useState, useEffect: <span className='text-green-600'>AxiosInstanceCRUD</span></h2>
+                                <p className="text-gray-700">useState : AxiosInstanceCRUD</p>
+                                <p className="text-gray-700">useEffect : AxiosInstanceCRUD</p>
                                 <div className="mt-6">
-                                    <button className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded">
+                                    <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded">
                                         Learn More
                                     </button>
                                 </div>
@@ -50,10 +49,9 @@ const HomePage = () => {
                         {/* createContext Card */}
                         <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">createContext, useContext</h2>
-                                <p className="text-gray-700">
-                                    Share data across your component tree without prop drilling by creating a context object.
-                                </p>
+                                <h2 className="text-xl font-semibold mb-3">createContext, useContext: <span className='text-gray-500'>ContextApiOne </span></h2>
+                                <p className="text-gray-700">createContext : ContextApiOne</p>
+                                <p className="text-gray-700">useContext : ContextApiOne</p>
                                 <div className="mt-6">
                                     <button className="bg-gray-500 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded">
                                         Learn More
@@ -65,10 +63,9 @@ const HomePage = () => {
                         {/* useReducer Card */}
                         <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">useReducer</h2>
-                                <p className="text-gray-700">
-                                    Manage complex state logic with a reducer function, offering a more predictable state transition.
-                                </p>
+                                <h2 className="text-xl font-semibold mb-3">useReducer: <span className='text-yellow-600'>Hooks</span></h2>
+                                <p className="text-gray-700">useReducer : <span className='font-bold'>Current project</span></p>
+                                <p className="text-gray-700">useReducer : Hooks</p>
                                 <div className="mt-6">
                                     <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded">
                                         Learn More
@@ -84,7 +81,7 @@ const HomePage = () => {
                         {/* useSelector Card */}
                         <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">useSelector, useDispatch, useStore</h2>
+                                <h2 className="text-xl font-semibold mb-3">useSelector, useDispatch, useStore: <span className='text-purple-600'>--</span></h2>
                                 <p className="text-gray-700">useSelector : Extract data from your Redux store's state using a selector function with useSelector.</p>
                                 <p>useDispatch : Dispatch actions to your Redux store to update state efficiently using the useDispatch hook.</p>
                                 <p>useStore : Access the Redux store instance directly for advanced scenarios using the useStore hook.</p>
@@ -103,10 +100,9 @@ const HomePage = () => {
                         {/* useRef Card */}
                         <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">useRef</h2>
-                                <p className="text-gray-700">
-                                    Persist mutable values across renders without triggering re-renders using the useRef hook.
-                                </p>
+                                <h2 className="text-xl font-semibold mb-3">useRef: <span className='text-yellow-600'>--</span></h2>
+                                <p className='text-gray-700'>--: --</p>
+                                <p className='text-gray-700'>--: --</p>
                                 <div className="mt-6">
                                     <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded">
                                         Learn More
@@ -118,10 +114,9 @@ const HomePage = () => {
                         {/* useMemo Card */}
                         <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">useMemo</h2>
-                                <p className="text-gray-700">
-                                    Optimize performance by memoizing expensive calculations, recomputing only when dependencies change.
-                                </p>
+                                <h2 className="text-xl font-semibold mb-3">useMemo: <span className='text-gray-600'>--</span></h2>
+                                <p className='text-gray-700'>--: --</p>
+                                <p className='text-gray-700'>--: --</p>
                                 <div className="mt-6">
                                     <button className="bg-gray-500 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded">
                                         Learn More
@@ -133,10 +128,9 @@ const HomePage = () => {
                         {/* useCallback Card */}
                         <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">useCallback</h2>
-                                <p className="text-gray-700">
-                                    Memoize callback functions to prevent unnecessary re-renders of child components with useCallback.
-                                </p>
+                                <h2 className="text-xl font-semibold mb-3">useCallback: <span className='text-orange-500'>--</span></h2>
+                                <p className='text-gray-700'>--: --</p>
+                                <p className='text-gray-700'>--: --</p>
                                 <div className="mt-6">
                                     <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded">
                                         Learn More
