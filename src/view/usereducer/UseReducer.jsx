@@ -17,7 +17,9 @@ function UseReducer() {
       return state - 1;
     }
   }
-  const [count, dispatch] = useReducer(reducer, 0) // initializing useReducer
+
+  // initializing useReducer hook
+  const [count, dispatch] = useReducer(reducer, 0)
 
 
   return (
