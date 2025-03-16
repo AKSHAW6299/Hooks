@@ -33,15 +33,15 @@ function UseReducer() {
         </nav>
       </header>
 
-      <div className='text-center text-green-500 mt-6'>
-        <h1 className="text-2xl font-semibold mb-4">useReducer hook: Manage complex state with ease</h1>
+      <div className='text-center mt-6'>
+        <h1 className="text-2xl font-semibold mb-4">useReducer hook: Manage complex state with ease, mostly used with redux.</h1>
       </div>
 
       {/* Counter Project Section */}
       <section className="bg-white shadow-lg rounded-lg p-8">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">Counter Project</h2>
+        <h2 className="text-2xl font-semibold text-center mb-6">Counter Project</h2>
         <div className="text-center mb-6">
-          <span className="text-3xl font-semibold text-indigo-600">Count: {count}</span>
+          <span className="text-3xl font-semibold text-purple-600">Count: {count}</span>
         </div>
         <div className="flex justify-center space-x-6">
           <button
