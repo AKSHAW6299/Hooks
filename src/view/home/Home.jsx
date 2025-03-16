@@ -35,7 +35,7 @@ const HomePage = () => {
                         {/* useState Card */}
                         <Link to="/usestate">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">useState, useEffect: <span className='text-green-600'>AxiosInstanceCRUD</span></h2>
+                                <h2 className="text-xl font-semibold mb-3">useState, useEffect : <span className='text-green-600'>AxiosInstanceCRUD</span></h2>
                                 <p className="text-gray-700">useState : AxiosInstanceCRUD, <span className='font-bold'>Current project</span></p>
                                 <p className="text-gray-700">useEffect : AxiosInstanceCRUD</p>
                                 <div className="mt-6">
@@ -49,7 +49,7 @@ const HomePage = () => {
                         {/* createContext Card */}
                         <a href="https://github.com/AKSHAW6299/ContextApiOne" target='_blank'>
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">createContext, useContext: <span className='text-gray-500'>ContextApiOne </span></h2>
+                                <h2 className="text-xl font-semibold mb-3">createContext, useContext : <span className='text-gray-500'>ContextApiOne </span></h2>
                                 <p className="text-gray-700">createContext : ContextApiOne</p>
                                 <p className="text-gray-700">useContext : ContextApiOne</p>
                                 <div className="mt-6">
@@ -63,7 +63,7 @@ const HomePage = () => {
                         {/* useReducer Card */}
                         <Link to="/usereducer">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">useReducer: <span className='text-yellow-600'>Hooks</span></h2>
+                                <h2 className="text-xl font-semibold mb-3">useReducer : <span className='text-yellow-600'>Hooks</span></h2>
                                 <p className="text-gray-700">useReducer : <span className='font-bold'>Current project</span></p>
                                 <p className="text-gray-700">useReducer : Hooks</p>
                                 <div className="mt-6">
@@ -81,7 +81,7 @@ const HomePage = () => {
                         {/* useSelector Card */}
                         <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">useSelector, useDispatch, useStore: <span className='text-purple-600'>--</span></h2>
+                                <h2 className="text-xl font-semibold mb-3">useSelector, useDispatch, useStore : <span className='text-purple-600'>--</span></h2>
                                 <p className="text-gray-700">useSelector : Extract data from your Redux store's state using a selector function with useSelector.</p>
                                 <p>useDispatch : Dispatch actions to your Redux store to update state efficiently using the useDispatch hook.</p>
                                 <p>useStore : Access the Redux store instance directly for advanced scenarios using the useStore hook.</p>
@@ -100,7 +100,7 @@ const HomePage = () => {
                         {/* useRef Card */}
                         <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">useRef: <span className='text-yellow-600'>--</span></h2>
+                                <h2 className="text-xl font-semibold mb-3">useRef : <span className='text-yellow-600'>--</span></h2>
                                 <p className='text-gray-700'>--: --</p>
                                 <p className='text-gray-700'>--: --</p>
                                 <div className="mt-6">
@@ -114,7 +114,7 @@ const HomePage = () => {
                         {/* useMemo Card */}
                         <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">useMemo: <span className='text-gray-600'>--</span></h2>
+                                <h2 className="text-xl font-semibold mb-3">useMemo : <span className='text-gray-600'>--</span></h2>
                                 <p className='text-gray-700'>--: --</p>
                                 <p className='text-gray-700'>--: --</p>
                                 <div className="mt-6">
@@ -128,7 +128,7 @@ const HomePage = () => {
                         {/* useCallback Card */}
                         <Link to="/">
                             <div className="bg-white rounded-xl shadow-2xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
-                                <h2 className="text-xl font-semibold mb-3">useCallback: <span className='text-orange-500'>--</span></h2>
+                                <h2 className="text-xl font-semibold mb-3">useCallback : <span className='text-orange-500'>--</span></h2>
                                 <p className='text-gray-700'>--: --</p>
                                 <p className='text-gray-700'>--: --</p>
                                 <div className="mt-6">
