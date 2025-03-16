@@ -5,8 +5,12 @@ function UseState() {
   const [count, setCount] = useState(0);
 
   // Handlers for increment and decrement actions
-  const handleIncrement = () => setCount(prevCount => prevCount + 1);
-  const handleDecrement = () => setCount(prevCount => prevCount - 1);
+  const handleIncrement = () => {
+    setCount(prevCount => prevCount + 1);
+  }
+  const handleDecrement = () => {
+    setCount(prevCount => prevCount - 1);
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
