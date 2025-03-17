@@ -8,7 +8,7 @@ function UseReducer() {
   // for useReducer hook
   // defining reducer function
   const reducer = (state, action) => {
-    console.log('state and action :', state, action);
+    // console.log('state and action :', state, action);
 
     if (action.type === 'INCREMENT') {
       return state + 1;
