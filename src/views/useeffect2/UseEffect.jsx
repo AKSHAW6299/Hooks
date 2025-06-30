@@ -22,7 +22,10 @@ function UseEffect() {
 
 
   return (
-    <div>UseEffect</div>
+    <>
+      <div>UseEffect</div>
+      <p>please see the console.....</p>
+    </>
   )
 }
 
