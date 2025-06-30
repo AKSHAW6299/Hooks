@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './views/home/Home'
 import UseState from './views/usestate1/UseState'
 import UseEffect from './views/useeffect2/UseEffect'
