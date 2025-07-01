@@ -7,7 +7,7 @@ function UseState() {
     return (
         <>
             <button onClick={() => setCount(count - 10)}>Decrement</button>
-            <h1>{count}</h1>
+            <h1>useState hook count:: {count}</h1>
             <button onClick={() => setCount(count + 10)}>Increment</button>
             <button onClick={() => setCount(0)}>RESET</button>
         </>
