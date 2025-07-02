@@ -8,8 +8,9 @@ function UseCallback() {
             <h1>Count is:: {count}</h1>
             <button onClick={() => setCount(count + 50)}>Increment</button>
             <hr />
-            
+
             {/* For performance optimization */}
+            {/* Jab tak buttonName change nahi hoga ChildComponent re-render nahi hoga, hai na kamal ka! */}
             <div>
                 <ChildComponent buttonName='Click me' />
             </div>
