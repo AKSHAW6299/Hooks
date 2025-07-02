@@ -5,6 +5,8 @@ import UseState from './views/usestate1/UseState'
 import UseEffect from './views/useeffect2/UseEffect'
 import UseReducer from './views/usereducer3/UseReducer'
 import UseRef from './views/useref4/UseRef'
+import UseMemo from './views/useMemo5/UseMemo'
+
 
 
 
@@ -18,6 +20,7 @@ function App() {
         <Route path="/useeffect" element={<UseEffect />} />
         <Route path="/usereducer" element={<UseReducer />} />
         <Route path="/useref" element={<UseRef />} />
+        <Route path="/usememo" element={<UseMemo />} />
       </Routes>
     </Router>
   )

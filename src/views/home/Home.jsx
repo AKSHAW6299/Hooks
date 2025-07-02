@@ -17,6 +17,9 @@ function Home() {
       <Link to="/useref">
         <button>Go to useRef</button>
       </Link>
+      <Link to="/useMemo">
+        <button>Go to useMemo</button>
+      </Link>
     </div>
   );
 }
