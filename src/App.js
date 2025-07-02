@@ -4,6 +4,8 @@ import Home from './views/home/Home'
 import UseState from './views/usestate1/UseState'
 import UseEffect from './views/useeffect2/UseEffect'
 import UseReducer from './views/usereducer3/UseReducer'
+import UseRef from './views/useref4/UseRef'
+
 
 
 
@@ -15,6 +17,7 @@ function App() {
         <Route path="/usestate" element={<UseState />} />
         <Route path="/useeffect" element={<UseEffect />} />
         <Route path="/usereducer" element={<UseReducer />} />
+        <Route path="/useref" element={<UseRef />} />
       </Routes>
     </Router>
   )

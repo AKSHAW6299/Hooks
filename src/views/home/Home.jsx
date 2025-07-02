@@ -14,6 +14,9 @@ function Home() {
       <Link to="/usereducer">
         <button>Go to useReducer</button>
       </Link>
+      <Link to="/useref">
+        <button>Go to useRef</button>
+      </Link>
     </div>
   );
 }
