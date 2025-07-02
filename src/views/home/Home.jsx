@@ -7,19 +7,27 @@ function Home() {
       <h1>Home</h1>
       <Link to="/usestate">
         <button>Go to useState</button>
-      </Link>
+      </Link> <br />
+
       <Link to="/useeffect">
         <button>Go to useEffect</button>
-      </Link>
+      </Link> <br />
+
       <Link to="/usereducer">
         <button>Go to useReducer</button>
-      </Link>
+      </Link> <br />
+      
       <Link to="/useref">
         <button>Go to useRef</button>
-      </Link>
+      </Link> <br />
+
       <Link to="/useMemo">
         <button>Go to useMemo</button>
-      </Link>
+      </Link> <br />
+
+      <Link to="/useCallback">
+        <button>Go to useCallback</button>
+      </Link> <br />
     </div>
   );
 }
