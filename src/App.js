@@ -7,6 +7,9 @@ import UseReducer from './views/usereducer3/UseReducer'
 import UseRef from './views/useref4/UseRef'
 import UseMemo from './views/useMemo5/UseMemo'
 import UseCallback from './views/useCallback6/UseCallback'
+import Counter from './views/customhook7/Counter'
+
+
 
 function App() {
   return (
@@ -19,6 +22,7 @@ function App() {
         <Route path="/useref" element={<UseRef />} />
         <Route path="/usememo" element={<UseMemo />} />
         <Route path="/useCallback" element={<UseCallback />} />
+        <Route path="/customhook" element={<Counter />} />
       </Routes>
     </Router>
   )

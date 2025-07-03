@@ -28,6 +28,10 @@ function Home() {
       <Link to="/useCallback">
         <button>Go to useCallback</button>
       </Link> <br />
+
+       <Link to="/customhook">
+        <button>Go to Custom hook</button>
+      </Link> <br />
     </div>
   );
 }
