@@ -9,30 +9,30 @@ function UseCallback() {
     //     setCount(count + 10)
     // }
 
-    // To freeze any function
+    // keeps same function reference intil count changes (To freeze any function)
     const handleClick = useCallback(() => {
         setCount(count + 10)
     }, [count])
 
-    
+
     return (
         <>
             <h1>Count is:: {count}</h1>
             <button onClick={handleClick}>Increment</button>
             <hr />
 
-            {/* For performance optimization */}
-            {/* CASE - normal scenario */}
+            {/* [CASE-A] - normal scenario */}
             {/* Jab tak buttonName change nahi hoga ChildComponent re-render nahi hoga, hai na kamal ka! */}
-            {/* <div>
+            <div>
                 <ChildComponent buttonName='Click me' />
-            </div> */}
-
-            {/* CASE - when we pass any function the React.memo will not able to stop the ChildComponent from re-rendering */}
-             <div>
-                <ChildComponent buttonName='Click me' onClick={handleClick} />
             </div>
-            <hr />
+
+
+
+            {/* [CASE-B] - when we pass any function the React.memo will not able to stop the ChildComponent from re-rendering */}
+            {/* <div>
+                <ChildComponent buttonName='Click me' onClick={handleClick} />
+            </div> */}
         </>
     )
 }
