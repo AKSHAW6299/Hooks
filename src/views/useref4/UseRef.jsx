@@ -24,22 +24,10 @@ function UseRef() {
     setCount(count + 20)
   }
 
-
-  //////////////////////////////////////////////
-  // CASE - B => Directly access DOM elements
-  const inputRef = useRef(null);
-
-  const focusInput = () => {
-    inputRef.current.focus();
-  };
-
   return (
     <>
       <h1>{count}</h1>
       <button onClick={handleIncrement}>Increment</button>
-      <hr />
-      <input ref={inputRef} type="text" />
-      <button onClick={focusInput}>Focus Input</button>
     </>
   )
 }
