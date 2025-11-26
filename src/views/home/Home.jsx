@@ -2,32 +2,39 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Home() {
+  const btn = "bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition mt-2";
+
   return (
-    <div>
-      <h1>Home</h1>
-      <Link to="/usestate">
-        <button>Go to useState</button>
-      </Link> <br />
+    <div className="p-4">
+      <h1 className="text-2xl font-bold">Home</h1>
 
-      <Link to="/useeffect">
-        <button>Go to useEffect</button>
-      </Link> <br />
+      <div className="flex flex-col space-y-3 mt-4">
 
-      <Link to="/usereducer">
-        <button>Go to useReducer</button>
-      </Link> <br />
-      
-      <Link to="/useref">
-        <button>Go to useRef</button>
-      </Link> <br />
+        <Link to="/usestate">
+          <button className={btn}>Go to useState</button>
+        </Link>
 
-      <Link to="/useMemo">
-        <button>Go to useMemo</button>
-      </Link> <br />
+        <Link to="/usereducer">
+          <button className={btn}>Go to useReducer</button>
+        </Link>
 
-      <Link to="/useCallback">
-        <button>Go to useCallback</button>
-      </Link> <br />
+        <Link to="/useeffect">
+          <button className={btn}>Go to useEffect</button>
+        </Link>
+
+        <Link to="/useref">
+          <button className={btn}>Go to useRef</button>
+        </Link>
+
+        <Link to="/useMemo">
+          <button className={btn}>Go to useMemo</button>
+        </Link>
+
+        <Link to="/useCallback">
+          <button className={btn}>Go to useCallback</button>
+        </Link>
+
+      </div>
     </div>
   );
 }
