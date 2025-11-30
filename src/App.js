@@ -6,7 +6,6 @@ import UseEffect from './views/useeffect2/UseEffect'
 import UseReducer from './views/usereducer3/UseReducer'
 import UseRef from './views/useref4/UseRef'
 import UseMemo from './views/useMemo5/UseMemo'
-import UseCallback from './views/useCallback6/UseCallback'
 
 
 
@@ -20,7 +19,6 @@ function App() {
         <Route path="/usereducer" element={<UseReducer />} />
         <Route path="/useref" element={<UseRef />} />
         <Route path="/usememo" element={<UseMemo />} />
-        <Route path="/useCallback" element={<UseCallback />} />
       </Routes>
     </Router>
   )

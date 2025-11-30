@@ -9,7 +9,6 @@ function Home() {
       <h1 className="text-2xl font-bold">Home</h1>
 
       <div className="flex flex-col space-y-3 mt-4">
-
         <Link to="/usestate">
           <button className={btn}>Go to useState</button>
         </Link>
@@ -29,11 +28,6 @@ function Home() {
         <Link to="/useMemo">
           <button className={btn}>Go to useMemo</button>
         </Link>
-
-        <Link to="/useCallback">
-          <button className={btn}>Go to useCallback</button>
-        </Link>
-
       </div>
     </div>
   );
